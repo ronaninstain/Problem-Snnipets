@@ -72,7 +72,7 @@ numbers = [1, 2, 3, 4, 5]
 doubled_numbers = double_numbers(numbers)
 print(doubled_numbers)
 
-# Exercise 8: list comprehension 2.0
+# Exercise 9: list comprehension 2.0
 
 
 def filter_even_numbers(e_numbers):
@@ -83,3 +83,14 @@ e_numbers = [1, 2, 3, 4, 5]
 
 even_numbers = filter_even_numbers(e_numbers)
 print(even_numbers)
+
+# Exercise 10: Sort
+
+
+def sort_numbers(numbers_s):
+    return sorted(numbers_s)
+
+
+numbers_s = [5, 2, 8, 1, 4]
+sorted_numbers = sort_numbers(numbers_s)
+print(sorted_numbers)

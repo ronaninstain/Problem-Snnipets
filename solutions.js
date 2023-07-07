@@ -95,3 +95,14 @@ function sumArray(numbersR) {
 const numbersR = [1, 2, 3, 4, 5];
 const sol10 = sumArray(numbersR);
 console.log(sol10);
+
+/* Exercise 11: The array Sort method */
+
+function sortNumbers(numbersS) {
+    return numbersS.sort((a, b) => a - b);
+}
+
+const numbersS = [5, 2, 8, 1, 4];
+const sortedNumbers = sortNumbers(numbersS);
+
+console.log(sortedNumbers);
